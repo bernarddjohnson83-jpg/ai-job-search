@@ -19,7 +19,7 @@ framework_version: 1.0.0
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| Associate of Arts and Science | completed 12/2005 | Nicholls State University | General studies |
+| Associate of Arts and Science | completed 12/2005 | Nicholls State University | Culinary Arts |
 
 **In progress:** QuickBooks Payroll Certification
 
