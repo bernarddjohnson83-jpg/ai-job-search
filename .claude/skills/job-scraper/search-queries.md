@@ -1,75 +1,68 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
-
 ## Installed portal CLIs (primary for `/scrape`)
 
-`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; any skill you add with `/add-portal` is included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
 
-The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
+The `site:` query templates in this file are the **WebSearch fallback** - for portals without a CLI, company career pages, or when a CLI fails.
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **linkedin.com/jobs** - LinkedIn job listings (filter: USA / Houston, TX / Remote); also covered by `linkedin-search` CLI
+- **indeed.com** - general US job board
+- **boards.greenhouse.io**, **jobs.lever.co**, **jobs.ashbyhq.com** - direct ATS career-page searches for target SaaS companies
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for known target companies (see Priority 2 below)
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Each query should be combined with location terms (Houston, TX or "remote") where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Customer Success / Onboarding / Implementation (primary pivot target)
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match Bernard's strongest and most desired career direction: moving from general customer support into a titled Customer Success, Onboarding, or Implementation role.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+"onboarding manager" OR "onboarding specialist" remote SaaS -intern
+"implementation specialist" OR "implementation consultant" remote SaaS
+"customer success manager" remote SaaS
+site:jobs.lever.co "customer success manager" remote
+site:jobs.ashbyhq.com "customer success" remote SMB
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: SaaS Payroll & HR Tech domain expertise (target companies)
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match Bernard's deep domain expertise in payroll/HR SaaS platforms - searching adjacent/competitor companies to Homebase.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+"now hiring" OR "we're hiring" "customer success" Gusto OR Rippling OR Justworks OR TriNet
+"customer success" OR "onboarding" hiring Deel OR Remote.com OR Toast OR Square remote
+"customer success" OR "implementation" hiring ADP OR Paylocity OR Paycom OR Paycor remote
+```
+
+### Priority 3: Account Management / SMB (adjacent role Bernard could pivot into)
+
+```
+"account manager" remote SaaS "SMB" -sales -"business development"
+site:jobs.lever.co "account manager" SMB remote
+```
+
+### Priority 4: Technical Support & broader net (wider search)
+
+```
+"technical support specialist" remote SaaS -"field" -"onsite"
+site:boards.greenhouse.io OR site:jobs.lever.co "customer success" Houston
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location fits Bernard's flexibility (fully remote, hybrid, or onsite in Houston). Define acceptable areas:
+- Fully remote (USA) - ideal
+- Houston, TX and surrounding metro area - ideal
+- Hybrid roles requiring occasional Houston office presence - acceptable
+- Onsite roles outside the Houston metro area - too far, unless relocation assistance is offered (flag for discussion)
 
 ## Date Filter
 
@@ -78,4 +71,5 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 ## Adapting Queries
 
 If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+- "/scrape onboarding" -> Priority 1 queries + custom onboarding-specific queries
+- "/scrape Gusto" -> Priority 2 queries filtered to Gusto + a direct Gusto careers page search

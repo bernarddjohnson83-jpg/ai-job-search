@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Customer support/success operations, payroll & HR SaaS platforms (ADP, Gusto, Homebase), Zendesk/Salesforce/Talkdesk platform expertise, SMB account management and retention, knowledge base development and process improvement
+**Moderate match areas:** Roles formally titled "Customer Success Manager," "Onboarding Manager/Specialist," or "Implementation Specialist/Consultant" (transferable skills, no exact title held yet); technical support requiring engineering handoff (proven via bug identification/troubleshooting, not a formal title)
+**Weak match areas:** Software engineering/developer-facing technical support, roles requiring a bachelor's degree or above, sales-quota-driven business development roles
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** SaaS payroll/HR customer support and operations, SMB client relationship management, workforce management platforms
+**Moderate:** Technical/product support requiring engineering handoff, operations/workforce supervision (Park Place Valet)
+**Entry-level:** Formally titled Customer Success Manager, Onboarding Manager, or Implementation Specialist roles (adjacent experience - this is the intended career pivot)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,19 +91,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Pivot from general customer support into Customer Success, Onboarding, Implementation, or Technical Support roles within SaaS / HR-payroll-tech companies
+- Grow into roles with more ownership over client relationships and technical problem-solving
+- Find a company culture that values employee voice/input and invests in coaching-based growth
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Owning client relationships end-to-end, solving technical/product problems, cross-functional work with product/engineering, building knowledge bases and process improvements, being heard and having input acted on
+- Tasks that drain: Rigid, script-only interactions with no room for judgment; siloed roles with no cross-team visibility; cultures that ignore employee feedback
+- Non-task factors: coaching-oriented leadership, collaborative team culture, remote-friendly policies
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Actively job searching; previous role ended in a company-wide layoff (05/2025), not performance-related
+- **Flexibility**: Open to fully remote, hybrid, or onsite in Houston, TX - flexible on location if the role is a strong fit
+- **Professional development**: Pursuing QuickBooks Payroll Certification; wants an employer that invests in a coaching-based growth path
 
 ### 6. Salary Benchmark (Optional)
 
