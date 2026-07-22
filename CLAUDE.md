@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Bernard Johnson
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Bernard Johnson, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,67 +16,79 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Bernard Johnson
+- **Location:** Houston, TX, USA (open to fully remote, hybrid, or onsite in Houston - flexible if the role is a strong fit)
+- **Languages:** English (native)
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Actively job searching (role ended May 2025 due to company-wide layoffs)
+- **LinkedIn headline:** "Customer Support Specialist | SaaS Payroll & HR Operations | Customer Success & Onboarding"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Associate of Arts and Science** (completed 12/2005) - Nicholls State University
+  - In Progress: QuickBooks Payroll Certification
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Customer Support Specialist, Payroll and HR Operations** (09/2021 - 05/2025) - **Homebase** (Houston, TX)
+  - Managed payroll processing support for SMB clients, resolving payroll tax, direct deposit, new hire setup, and benefits administration issues across phone, email, and live chat
+  - Achieved 4.9/5.0 CSAT and 95% first-touch resolution rate across multiple quarters
+  - Built a recurring portfolio of 10-15 SMB clients who requested support exclusively; guided 50+ SMB clients through payroll setup, reducing payroll-related escalations by 30%
+  - Co-led development of internal and customer-facing knowledge bases in Zendesk, reducing repeat inquiries by 20%
+  - Identified and documented product bugs via Zendesk tickets in collaboration with engineering
+  - Tracked NPS, CSAT, AHT, retention, and expansion metrics to inform Product and Engineering prioritization
+  - Used AI tools for interaction summarization, research acceleration, and workflow optimization
+- **Operations Supervisor, Client Experience and Workforce Coordination** (04/2021 - 12/2022, part-time/secondary role) - **Park Place Valet** (Houston, TX)
+  - Led a 15-20 person team across three locations, overseeing daily operations, staffing, and scheduling
+  - Improved on-time vehicle retrieval by 12% and increased guest satisfaction scores
+  - Optimized staffing using traffic data and scheduling tools, reducing overtime costs by 8%
+  - Maintained 100% audit-ready records of daily tickets, cash drops, and incident reports
+- **Customer Operations Specialist, Service and Logistics** (06/2014 - 12/2020) - **Southwest Airlines** (Remote/Multi-Site)
+  - Delivered multi-channel customer service across 2,000+ flights monthly
+  - Resolved real-time customer escalations using conflict-resolution and de-escalation techniques
+  - Mentored new team members through hands-on training and documentation
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Zendesk (ticket management + knowledge base), Salesforce, Talkdesk, ADP, Gusto, Homebase platform, escalation management, SLA compliance
+- **Secondary:** Payroll processing, tax compliance, I-9/W-2 administration, direct deposit, benefits administration, Google Workspace, Microsoft Office
+- **Domain:** SaaS payroll & HR operations, SMB customer success/onboarding, workforce management platforms
+- **Software:** Zendesk, Salesforce, Talkdesk, ADP, Gusto, Homebase, Google Workspace, Microsoft Office; AI-assisted research and workflow tools
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **QuickBooks Payroll Certification** - in progress
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Relationship-driven ownership** - builds trusted-advisor relationships with a recurring portfolio of clients rather than treating support as transactional
+- **Cross-functional collaborator** - works comfortably across support, product, and engineering (e.g., bug identification and escalation)
+- **Strengths:** Mix of independent ownership and collaborative, cross-functional work; process improvement (knowledge base development); staying composed under pressure
+- **Growth areas:** Formal technical/SaaS credentials beyond hands-on experience (QuickBooks Payroll Certification in progress); presenting to larger groups vs. 1:1 client communication
+- **Thrives in:** Environments blending structured process (payroll compliance, SLAs) with room for initiative; coaching-oriented management that invests in growth; workplaces that genuinely listen to and act on employee input
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Owning client relationships end-to-end and turning product/operational problems into confident outcomes
+- Working somewhere that actually listens to employee input and feedback
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- SaaS Payroll & HR Tech: Gusto, Rippling, Justworks, TriNet, ADP, Paylocity, Paycom, Paycor, Deel, Remote.com
+- SMB SaaS / Workforce Management: Toast, Square, Homebase-adjacent platforms
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Company culture that dismisses or ignores employee feedback/input
+- Rigid, script-only roles with no room for judgment or process improvement
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

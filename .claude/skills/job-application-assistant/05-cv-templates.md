@@ -115,12 +115,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Customer Success / Onboarding / Implementation roles:**
+> Customer-facing SaaS operations specialist with 4+ years driving onboarding, adoption, and retention for SMB clients on workforce management and payroll platforms (Homebase, ADP, Gusto). Builds trusted-advisor relationships that turn product questions into confident outcomes, backed by 95% first-touch resolution and measurable account expansion. Brings a cross-functional habit of partnering with product and engineering to close the loop on customer feedback.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Technical Support roles:**
+> Technical support specialist with 4+ years resolving payroll, HR, and platform issues for SMB clients across phone, chat, and email. Combines hands-on troubleshooting (Zendesk, Salesforce, Talkdesk) with a track record of identifying and escalating product bugs to engineering, and building self-service knowledge bases that cut repeat tickets by 20%. Thrives owning problems end-to-end while collaborating cross-functionally to drive lasting fixes.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
