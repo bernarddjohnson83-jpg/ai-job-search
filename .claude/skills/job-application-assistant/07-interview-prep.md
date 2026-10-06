@@ -14,6 +14,8 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
+<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+
 ### 1. Building a Trusted-Advisor SMB Portfolio (Relationship Management / Account Growth)
 **S:** At Homebase, SMB clients handling payroll and HR tasks needed more consistent, specialized attention than a rotating support queue could offer.
 **T:** Build deeper relationships with a subset of clients to improve their experience and identify expansion opportunities.

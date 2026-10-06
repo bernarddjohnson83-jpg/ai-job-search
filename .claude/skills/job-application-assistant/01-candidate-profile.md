@@ -1,5 +1,5 @@
 ---
-framework_version: 1.0.0
+framework_version: 1.1.1
 ---
 
 # Candidate Profile
@@ -11,9 +11,18 @@ framework_version: 1.0.0
 - **Email:** bernard.d.johnson.83@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/bernard-johnson-a9493467
 - **GitHub:** N/A
-- **Languages:** English (native)
 - **Status:** Actively job searching (role ended May 2025 due to company-wide layoffs)
 - **Constraints:** Open to fully remote, hybrid, or onsite in Houston, TX - flexible on location if the role is a strong fit
+
+### Languages
+<!-- Every language you can work in professionally, with your honest level. Used by the
+Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
+generation. Omit any language you don't actually work in - an undeclared language is treated as
+a hard no, not a gap to smooth over. -->
+
+| Language | Level | Notes |
+|----------|-------|-------|
+| English | Native | |
 
 ## Education
 
