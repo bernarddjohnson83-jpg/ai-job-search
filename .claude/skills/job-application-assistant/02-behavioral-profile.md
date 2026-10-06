@@ -4,7 +4,6 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
 <!-- Synthesized from self-assessment during /setup - no formal assessment (PI/DISC/Myers-Briggs) was used -->
 
 ## Overview

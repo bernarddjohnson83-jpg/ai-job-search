@@ -4,9 +4,6 @@ framework_version: 1.1.1
 
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
-
 ## Identity
 - **Name:** Bernard Johnson
 - **Location:** Houston, TX, USA
@@ -89,5 +86,3 @@ Remote/Multi-Site
 
 ## References
 - Available upon request (not yet provided - add names/contacts when ready)
-
-More references available upon request.
